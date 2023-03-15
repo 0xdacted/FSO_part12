@@ -1,0 +1,16 @@
+Script started on Wed Mar 15 13:10:16 2023
+[1m[7m%[27m[1m[0m                                                                                                                [0m[27m[24m[Jcodyclifton@Codys-MacBook-Air FSO_part12 % [K[?2004hddok cker container run -t it ubuntu bash[?2004l
+[?2004h]0;root@9f6dbf212a01: /root@9f6dbf212a01:/# mkdir -p /usr/src/app
+[?2004l[?2004h]0;root@9f6dbf212a01: /root@9f6dbf212a01:/# echo "console.log('Hello, World'); > /usr/a src/app/n index.js
+[?2004l[?2004h> [7mecho "console.log('Hello, World');" > /usr/src/app/index.js[27m
+[A> echo "console.log('Hello, World');" > /usr/src/app/index.js
+[A
+[?2004lbash: syntax error near unexpected token `('
+[?2004h]0;root@9f6dbf212a01: /root@9f6dbf212a01:/# [K[7mecho "console.log('Hello, World');" > /usr/src/app/index.js[27m
+[Aroot@9f6dbf212a01:/# echo "console.log('Hello, World');" > /usr/src/app/index.js
+[A
+[?2004l[?2004h]0;root@9f6dbf212a01: /root@9f6dbf212a01:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                [0m[27m[24m[Jcodyclifton@Codys-MacBook-Air FSO_part12 % [K[?2004heexxit   it[?2004l
+
+Script done on Wed Mar 15 13:11:40 2023
