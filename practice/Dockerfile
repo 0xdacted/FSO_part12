@@ -2,6 +2,11 @@ FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY ./index.js ./index.js
+COPY --chown=node:node . .
 
-CMD node index.js
+RUN npm ci 
+
+ENV DEBUG=practice:*
+
+USER node
+CMD npm start
